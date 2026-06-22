@@ -17,6 +17,7 @@
 - 关键词搜索（名称/账号/备注）
 - 主密码解锁
 - 本地 AES-GCM 加密存储（`localStorage` 中为密文）
+- 支持 2FA 动态密码添加
 
 ---
 
@@ -44,6 +45,7 @@
 ```text
 .
 ├── index.html
+├── security.html
 ├── style.css
 └── script.js
 ```
